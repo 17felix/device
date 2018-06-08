@@ -9,7 +9,11 @@
   <header class="main-header">
     <nav class="main-nav">
       <a class="main-header-logo">DEVICE</a>
-      <form class="search"><!-- Форма поиска по сайту --></form>
+      <form class="search-form" method="POST" action="https://echo.htmlacademy.ru">
+        <label class="visually-hidden" for="search-request">Поиск по сайту</label>
+        <input id="search-request" type="search" name="search" placeholder="Поиск по сайту">
+        <button class="search-button" type="submit">Найти</button>
+      </form>
       <ul class="user-navigation">
         <li class="profile">
           <a class="profile-link" href="profile.html">Валентин Петухов</a></li>
