@@ -14,6 +14,7 @@
         <input id="search-request" type="search" name="search" placeholder="Поиск по сайту">
         <button class="search-button" type="submit">Найти</button>
       </form>
+
       <ul class="user-navigation">
         <li class="profile">
           <a class="profile-link" href="profile.html">Валентин Петухов</a></li>
@@ -66,8 +67,8 @@
           <button class="price-button"><span>от 0</span></button>
           <button class="price-button"><span>до 5000</span></button>
           <div class="difference"></div>
-          <span class="visually-hidden min">0</span>
-          <span class="visually-hidden max">5000</span>
+          <input class="visually-hidden" type="number" name="min">
+          <input class="visually-hidden" type="number" name="max">
         </fieldset>
         <fieldset class="filter-form-filed">
           <legend>Цвет</legend>
