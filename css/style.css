@@ -12,3 +12,17 @@ body {
 a {
   text-decoration: none;
 }
+
+.user-navigation,
+.user-functions,
+.site-nav,
+.sub-menu {
+  list-style: none;
+}
+
+.user-navigation a,
+.user-functions a,
+.site-nav a,
+.sub-menu a {
+  color: #000000;
+}
