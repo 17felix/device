@@ -75,3 +75,10 @@ a {
 .popular-categories-list {
   list-style: none;
 }
+
+.popular-item a {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
