@@ -14,8 +14,10 @@ a {
 }
 
 .logo {
-  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
 }
 
 .user-navigation,
