@@ -51,3 +51,7 @@ a {
 .sub-menu a:focus {
   opacity: 0.6;
 }
+
+.tagline {
+  font-weight: bold;
+}
