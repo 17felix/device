@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+}
+
 .user-navigation,
 .user-functions,
 .site-nav,
