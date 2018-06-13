@@ -27,6 +27,11 @@ a {
   line-height: 24px;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #f0c52e;
+}
+
 .user-navigation,
 .user-functions,
 .site-nav,
