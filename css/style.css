@@ -71,3 +71,7 @@ a {
   line-height: 48px;
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
 }
+
+.popular-categories-list {
+  list-style: none;
+}
