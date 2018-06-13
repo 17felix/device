@@ -143,3 +143,7 @@ a {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #464646;
 }
+
+.footer-color a {
+  color: #ffffff;
+}
