@@ -16,11 +16,11 @@ body {
   margin: 0px;
   padding: 0px;
 
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 30px;
-  font-weight: 300;
-  color: #464646;
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000000;
 }
 
 a {
