@@ -21,6 +21,11 @@ a {
   color: #000000;
 }
 
+.logo:hover,
+.logo:focus {
+  opacity: 0.6;
+}
+
 .footer-logo {
   color: #f0c52e;
 }
