@@ -26,3 +26,7 @@ a {
 .sub-menu a {
   color: #000000;
 }
+
+.site-nav-item > a {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+}
