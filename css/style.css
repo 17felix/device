@@ -82,3 +82,7 @@ a {
   line-height: 24px;
   color: #000000;
 }
+
+.popular-item a:active {
+  opacity: 0.3;
+}
