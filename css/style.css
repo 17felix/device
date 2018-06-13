@@ -5,6 +5,13 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/gilroylight.woff2") format('woff2'),
+       url("../fonts/gilroylight.woff.woff") format('woff');
+  font-weight: 300;
+}
+
 body {
   margin: 0px;
   padding: 0px;
