@@ -98,3 +98,8 @@ a {
 .popular-item a:active {
   opacity: 0.3;
 }
+
+.services-button:active {
+  background-color: #000000;
+  color: #f7e184;
+}
