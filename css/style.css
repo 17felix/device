@@ -78,8 +78,6 @@ a {
 }
 
 .site-nav-item > a {
-  font-family: "Gilroy", Arial, Helvetica, sans-serif;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -111,7 +109,6 @@ a {
 .properties td {
   font-size: 36px;
   line-height: 48px;
-  font-family: "Gilroy", Arial, Helvetica, sans-serif;
 }
 
 .popular-categories-list {
@@ -139,10 +136,8 @@ a {
 }
 
 .services-item h3 {
-  font-weight: bold;
   font-size: 47px;
   line-height: 48px;
-  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   color: #000000;
 }
 
@@ -155,10 +150,8 @@ a {
 }
 
 .section-title {
-  font-weight: bold;
   font-size: 47px;
   line-height: 48px;
-  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   color: #000000;
 }
 
