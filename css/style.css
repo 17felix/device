@@ -59,3 +59,8 @@ a {
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
   color: #000000;
 }
+
+.properties th {
+  font-size: 13px;
+  line-height: 20px;
+}
