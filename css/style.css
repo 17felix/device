@@ -31,3 +31,14 @@ a {
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
+
+.user-navigation a:hover,
+.user-navigation a:focus,
+.user-functions a:hover,
+.user-functions a:focus,
+.site-nav a:hover,
+.site-nav a:focus,
+.sub-menu a:hover,
+.sub-menu a:focus {
+  opacity: 0.6;
+}
