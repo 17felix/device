@@ -103,3 +103,7 @@ a {
   background-color: #000000;
   color: #f7e184;
 }
+
+.services-list {
+  list-style: none;
+}
