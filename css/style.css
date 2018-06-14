@@ -271,3 +271,8 @@ a {
 .sort-button-active {
   color: rgba(0, 0, 0, 1);
 }
+
+.price {
+  font-weight: 300;
+  font-size: 16px;
+}
