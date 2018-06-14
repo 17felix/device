@@ -72,9 +72,13 @@ a {
 
 .user-navigation a,
 .user-functions a,
-.site-nav a,
 .sub-menu a {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #000000;
+  text-transform: capitalize;
 }
 
 .site-nav-item > a {
