@@ -284,3 +284,12 @@ a {
 .pagination {
   list-style: none;
 }
+
+.button-compare {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  background: none;
+  border: 0px;
+}
