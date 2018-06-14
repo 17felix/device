@@ -293,3 +293,12 @@ a {
   background: none;
   border: 0px;
 }
+
+.button-compare:hover,
+.button-compare:focus {
+  color: rgba(0, 0, 0, 1);
+}
+
+.button-compare:active {
+  color: rgba(0, 0, 0, 0.2);
+}
