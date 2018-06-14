@@ -97,6 +97,10 @@ a {
   opacity: 0.6;
 }
 
+.sleder-slides {
+  list-style: none;
+}
+
 .tagline {
   font-weight: bold;
   font-size: 47px;
