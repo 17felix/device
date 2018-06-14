@@ -168,6 +168,10 @@ a {
   color: #464646;
 }
 
+.brands-list {
+  list-style: none;
+}
+
 .section-title {
   font-size: 47px;
   line-height: 48px;
@@ -181,6 +185,14 @@ a {
   line-height: 30px;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #464646;
+}
+
+.partners {
+  font-weight: bold;
+  font-style: 15px;
+  line-height: 30px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  list-style: circle;
 }
 
 .main-footer {
