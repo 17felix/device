@@ -82,6 +82,7 @@ a {
 }
 
 .site-nav-item > a {
+  color: #000000;
   text-transform: uppercase;
 }
 
