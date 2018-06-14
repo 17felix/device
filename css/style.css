@@ -211,3 +211,9 @@ a {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #ffffff;
 }
+
+
+.page-title {
+  font-size: 47px;
+  line-height: 48px;
+}
