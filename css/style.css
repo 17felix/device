@@ -204,7 +204,9 @@ a {
   background-color: #464646;;
 }
 
-.footer-color a {
+.footer-user-navigation a,
+.footer-user-functions a,
+.footer-site-nav a {
   color: #ffffff;
 }
 
