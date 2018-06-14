@@ -212,8 +212,19 @@ a {
   color: #ffffff;
 }
 
-
 .page-title {
   font-size: 47px;
   line-height: 48px;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs li,
+.breadcrumbs a {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.3);
 }
