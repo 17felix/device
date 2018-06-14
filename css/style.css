@@ -228,3 +228,14 @@ a {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: rgba(0, 0, 0, 0.3);
 }
+
+.breadcrumbs li:hover,
+.breadcrumbs li:focus,
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+.breadcrumbs li:active,
+.breadcrumbs a:active {
+  color: rgba(0, 0, 0, 0.1);
+}
