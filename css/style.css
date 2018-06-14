@@ -239,3 +239,9 @@ a {
 .breadcrumbs a:active {
   color: rgba(0, 0, 0, 0.1);
 }
+
+.catalog-section-title {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+}
