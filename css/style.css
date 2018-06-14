@@ -254,3 +254,8 @@ a {
   line-height: 40px;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
+
+.color-check:disabled,
+.radio-check:disabled {
+  color: #a6a6a6;
+}
