@@ -327,3 +327,11 @@ a {
   background-color: #ebebeb;
 }
 
+.pagination-button:hover,
+.pagination-button:focus {
+  background-color: #d9d9d9;
+}
+
+.pagination-button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
