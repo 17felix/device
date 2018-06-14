@@ -44,9 +44,9 @@ a {
   opacity: 0.3;
 }
 
-.header-logo {
+.main-header {
   background-color: #ffffff;
-  background-image: linear-gradient(to bottom, #ffffff 50%, #f7e296 50%);
+  background-image: linear-gradient(to bottom, #ffffff 5%, #f7e296 5%);
 }
 
 .footer-logo {
@@ -66,10 +66,6 @@ a {
 .button:hover,
 .button:focus {
   background-color: #f0c52e;
-}
-
-.navigation-wrapper {
-  background-color: #f7e296;
 }
 
 .user-navigation,
