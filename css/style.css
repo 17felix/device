@@ -44,6 +44,11 @@ a {
   opacity: 0.3;
 }
 
+.header-logo {
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom, #ffffff 50%, #f7e296 50%);
+}
+
 .footer-logo {
   color: #f0c52e;
 }
