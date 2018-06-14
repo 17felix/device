@@ -309,4 +309,14 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 
+.pagination-page:hover,
+.pagination-page:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.pagination-page-active,
+.pagination-page:active {
+  color: rgba(0, 0, 0, 1);
+}
+
 
