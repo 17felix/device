@@ -170,7 +170,8 @@ a {
   color: #000000;
 }
 
-.about p {
+.about p,
+.contacts p {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
