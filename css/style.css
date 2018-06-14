@@ -272,7 +272,15 @@ a {
   color: rgba(0, 0, 0, 1);
 }
 
+.catalog-list {
+  list-style: none;
+}
+
 .price {
   font-weight: 300;
   font-size: 16px;
+}
+
+.pagination {
+  list-style: none;
 }
