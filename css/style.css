@@ -80,6 +80,9 @@ a {
 .user-functions,
 .site-nav,
 .sub-menu {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
@@ -116,6 +119,8 @@ a {
 .sub-menu a:active {
   color: rgba(0, 0, 0, 0.3);
 }
+
+/* ___Стили промо-слайдера___ */
 
  .slider-slides {
   list-style: none;
