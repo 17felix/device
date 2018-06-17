@@ -29,6 +29,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
 .button {
   font-weight: 800;
   font-size: 18px;
