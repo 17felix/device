@@ -76,7 +76,6 @@ a {
   color: #f0c52e;
 }
 
-
 .user-navigation,
 .user-functions,
 .site-nav,
@@ -108,10 +107,17 @@ a {
 .site-nav a:focus,
 .sub-menu a:hover,
 .sub-menu a:focus {
-  opacity: 0.6;
+  color: rgba(0, 0, 0, 0.6);
 }
 
-.slider-slides {
+.user-navigation a:active,
+.user-functions a:active,
+.site-nav a:active,
+.sub-menu a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+ .slider-slides {
   list-style: none;
 }
 
