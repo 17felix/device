@@ -240,14 +240,30 @@ a {
   background-color: #464646;;
 }
 
-.footer-logo {
+.main-footer a {
+  color: #ffffff;
+}
+
+.main-footer .footer-logo {
   color: #f0c52e;
 }
 
-.footer-user-navigation a,
-.footer-user-functions a,
-.footer-site-nav a {
-  color: #ffffff;
+.main-footer .footer-logo:hover,
+.main-footer .footer-logo:focus {
+  color: rgba(255, 198, 0, 0.6)
+}
+
+.main-footer .footer-logo:active {
+  color: rgba(255, 198, 0, 0.3);
+}
+
+.main-footer a:hover,
+.main-footer a:focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-footer a:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .contacts-phone,
@@ -258,6 +274,8 @@ a {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #ffffff;
 }
+
+/* ___Стили каталога___ */
 
 .page-title {
   font-size: 47px;
