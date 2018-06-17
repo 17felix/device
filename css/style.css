@@ -56,11 +56,15 @@ a {
 /*___Стили для шапки___*/
 
 .main-nav {
+  display: flex;
+  flex-direction: column;
+
   padding: 0 60px;
 
   background-color: #ffffff;
   background-image: linear-gradient(to bottom, #ffffff 23px, #f7e296 23px);
 }
+
 
 .logo {
   font-weight: 800;
@@ -77,6 +81,14 @@ a {
 
 .logo:active {
   color: rgba(0, 0, 0, 0.3)
+}
+
+.header-logo {
+  margin-bottom: 36px;
+}
+
+.header-middle {
+  margin-bottom: 45px;
 }
 
 .footer-logo {
