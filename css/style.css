@@ -65,7 +65,6 @@ a {
   background-image: linear-gradient(to bottom, #ffffff 23px, #f7e296 23px);
 }
 
-
 .logo {
   font-weight: 800;
   font-size: 48px;
@@ -89,10 +88,6 @@ a {
 
 .header-middle {
   margin-bottom: 45px;
-}
-
-.footer-logo {
-  color: #f0c52e;
 }
 
 .user-navigation,
@@ -239,8 +234,14 @@ a {
   list-style: circle;
 }
 
+/* ___Стили для подвала___ */
+
 .main-footer {
   background-color: #464646;;
+}
+
+.footer-logo {
+  color: #f0c52e;
 }
 
 .footer-user-navigation a,
