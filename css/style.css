@@ -12,7 +12,7 @@
   font-weight: 300;
 }
 
-/*______Общие стили______ */
+/*______Общие стили______*/
 
 body {
   margin: 0px;
@@ -48,6 +48,8 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 
+/*___Стили для шапки___*/
+
 .logo {
   font-weight: 800;
   font-size: 48px;
@@ -58,11 +60,11 @@ a {
 
 .logo:hover,
 .logo:focus {
-  opacity: 0.6;
+  color: rgba(0, 0, 0, 0.6)
 }
 
 .logo:active {
-  opacity: 0.3;
+  color: rgba(0, 0, 0, 0.3)
 }
 
 .main-header {
