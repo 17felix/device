@@ -138,6 +138,8 @@ a {
 /* ___Стили промо-слайдера___ */
 
  .slider-slides {
+   margin: 0;
+   padding: 0;
   list-style: none;
 }
 
@@ -147,6 +149,11 @@ a {
   line-height: 56px;
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
   color: #000000;
+}
+
+.slide {
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom, #f7e296 113px, #ffffff 113px )
 }
 
 .slide p {
@@ -396,7 +403,6 @@ a {
   font-weight: 300;
   font-size: 16px;
 }
-
 
 .button-compare {
   font-weight: 300;
