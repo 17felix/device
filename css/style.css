@@ -280,6 +280,14 @@ a {
   background-color: #464646;;
 }
 
+.footer-top {
+  margin-bottom: 33px;
+}
+
+.footer-middle {
+  margin-bottom: 60px;
+}
+
 .main-footer a {
   color: #ffffff;
 }
