@@ -17,6 +17,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  min-width: 1200px;
 
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -339,14 +340,14 @@ a {
 /* ___Стили каталога___ */
 
 .page-title {
-  padding: 0 60px;
+
   font-size: 47px;
   line-height: 48px;
 }
 
 .breadcrumbs {
   margin: 0;
-  padding: 0 60px;
+  padding: 0;
   list-style: none;
 }
 
@@ -370,8 +371,8 @@ a {
 .filter-columns {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   justify-content: space-between;
-  padding: 0 60px;
 }
 
 .catalog-section-title {
@@ -380,20 +381,39 @@ a {
   text-transform: uppercase;
 }
 
-.filters {
+.filters,
+.catalog {
   display: flex;
   flex-direction: column;
 }
 
+.filters {
+  flex-basis: 32%;
+  background-color: #fff;
+}
+
+.catalog {
+  flex-basis: 68%;
+}
+
+.filters-top {
+  background-color: #dbdbdb;
+}
+
+.filters-container {
+  background-color: #efefef;
+}
+
 .filter-form-field {
-  display: flex;
-  flex-direction: column;
+
   margin: 0;
   padding: 0;
   border: none;
 }
 
-
+.catalog-top {
+  background-color: #ebebeb;
+}
 
 .color-check,
 .radio-check {
