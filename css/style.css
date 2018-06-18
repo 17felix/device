@@ -380,6 +380,21 @@ a {
   text-transform: uppercase;
 }
 
+.filters {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-form-field {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+
+
 .color-check,
 .radio-check {
   font-weight: 300;
