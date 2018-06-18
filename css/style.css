@@ -340,7 +340,10 @@ a {
 /* ___Стили каталога___ */
 
 .page-title {
-
+  margin: 0;
+  padding: 0;
+  padding-left: 60px;
+  padding-right: 60px;
   font-size: 47px;
   line-height: 48px;
 }
@@ -348,6 +351,8 @@ a {
 .breadcrumbs {
   margin: 0;
   padding: 0;
+  padding-left: 60px;
+  padding-right: 60px;
   list-style: none;
 }
 
@@ -405,7 +410,6 @@ a {
 }
 
 .filter-form-field {
-
   margin: 0;
   padding: 0;
   border: none;
