@@ -339,11 +339,14 @@ a {
 /* ___Стили каталога___ */
 
 .page-title {
+  padding: 0 60px;
   font-size: 47px;
   line-height: 48px;
 }
 
 .breadcrumbs {
+  margin: 0;
+  padding: 0 60px;
   list-style: none;
 }
 
