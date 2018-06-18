@@ -241,6 +241,14 @@ a {
   list-style: none;
 }
 
+/* ___Стили для блоков "О нас" и "Контакты"___ */
+
+.inner-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .section-title {
   font-size: 47px;
   line-height: 48px;
