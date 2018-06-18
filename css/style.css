@@ -114,6 +114,7 @@ a {
 .site-nav-item > a {
   color: #000000;
   text-transform: uppercase;
+  letter-spacing: 3.6px;
 }
 
 .user-navigation a:hover,
@@ -312,6 +313,11 @@ a {
 
 .main-footer a:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-middle a {
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
 }
 
 .contacts-phone,
