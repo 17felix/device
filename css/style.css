@@ -229,7 +229,15 @@ a {
   color: #464646;
 }
 
+/* ___Стили для блока брендов___ */
+
 .brands-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
