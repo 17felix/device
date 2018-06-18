@@ -192,6 +192,20 @@ a {
   opacity: 0.3;
 }
 
+/* ___Стили блока Услуги___ */
+
+.services-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.services-slider-controls {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .services-button:active {
   background-color: #000000;
   color: #f7e184;
