@@ -1,25 +1,25 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("../fonts/gilroyextrabold.woff2") format('woff2'),
-       url("../fonts/gilroyextrabold.woff") format('woff');
+  src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
+    url("../fonts/gilroyextrabold.woff") format("woff");
   font-weight: 800;
 }
 
 @font-face {
   font-family: "Gilroy";
-  src: url("../fonts/gilroylight.woff2") format('woff2'),
-       url("../fonts/gilroylight.woff.woff") format('woff');
+  src: url("../fonts/gilroylight.woff2") format("woff2"),
+    url("../fonts/gilroylight.woff.woff") format("woff");
   font-weight: 300;
 }
 
 /*______Общие стили______*/
 
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   min-width: 1200px;
 
-  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+  font-family: "Gilroy", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -70,17 +70,17 @@ a {
   font-weight: 800;
   font-size: 48px;
   line-height: 48px;
-  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+  font-family: "Gilroy", "Arial", "Helvetica", sans-serif;
   color: #000000;
 }
 
 .logo:hover,
 .logo:focus {
-  color: rgba(0, 0, 0, 0.6)
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .logo:active {
-  color: rgba(0, 0, 0, 0.3)
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .header-logo {
@@ -107,7 +107,7 @@ a {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   color: #000000;
   text-transform: capitalize;
 }
@@ -138,9 +138,9 @@ a {
 
 /* ___Стили промо-слайдера___ */
 
- .slider-slides {
-   margin: 0;
-   padding: 0;
+.slider-slides {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -148,20 +148,20 @@ a {
   font-weight: 800;
   font-size: 47px;
   line-height: 56px;
-  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+  font-family: "Gilroy", "Arial", "Helvetica", sans-serif;
   color: #000000;
 }
 
 .slide {
   background-color: #ffffff;
-  background-image: linear-gradient(to bottom, #f7e296 113px, #ffffff 113px )
+  background-image: linear-gradient(to bottom, #f7e296 113px, #ffffff 113px);
 }
 
 .slide p {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   color: #464646;
 }
 
@@ -169,7 +169,7 @@ a {
   font-weight: 300;
   font-size: 13px;
   line-height: 20px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
 }
 
 .properties td {
@@ -212,7 +212,6 @@ a {
 .services-slider-controls {
   display: flex;
   flex-direction: column;
-
 }
 
 .services-button:active {
@@ -236,7 +235,7 @@ a {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   color: #464646;
 }
 
@@ -271,7 +270,7 @@ a {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   color: #464646;
 }
 
@@ -279,14 +278,14 @@ a {
   font-weight: 800;
   font-style: 15px;
   line-height: 30px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   list-style: circle;
 }
 
 /* ___Стили для подвала___ */
 
 .main-footer {
-  background-color: #464646;;
+  background-color: #464646;
 }
 
 .footer-top {
@@ -307,7 +306,7 @@ a {
 
 .main-footer .footer-logo:hover,
 .main-footer .footer-logo:focus {
-  color: rgba(255, 198, 0, 0.6)
+  color: rgba(255, 198, 0, 0.6);
 }
 
 .main-footer .footer-logo:active {
@@ -333,7 +332,7 @@ a {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   color: #ffffff;
 }
 
@@ -360,7 +359,7 @@ a {
 .breadcrumbs a {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -377,7 +376,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  justify-content: space-between;
 }
 
 .catalog-section-title {
@@ -394,7 +392,6 @@ a {
 
 .filters {
   flex-basis: 32%;
-  background-color: #fff;
 }
 
 .catalog {
@@ -424,7 +421,7 @@ a {
   font-weight: 300;
   font-size: 14px;
   line-height: 40px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
 }
 
 .color-check:disabled,
@@ -436,7 +433,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -459,7 +456,7 @@ a {
   line-height: 20px;
   color: rgba(0, 0, 0, 0.5);
   background: none;
-  border: 0px;
+  border: none;
 }
 
 .button-compare:hover,
