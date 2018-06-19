@@ -1,28 +1,30 @@
 @font-face {
+  font-weight: 800;
   font-family: "Gilroy";
+
   src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
     url("../fonts/gilroyextrabold.woff") format("woff");
-  font-weight: 800;
 }
 
 @font-face {
+  font-weight: 300;
   font-family: "Gilroy";
+
   src: url("../fonts/gilroylight.woff2") format("woff2"),
     url("../fonts/gilroylight.woff.woff") format("woff");
-  font-weight: 300;
 }
 
 /*______Общие стили______*/
 
 body {
+  min-width: 1200px;
   margin: 0;
   padding: 0;
-  min-width: 1200px;
 
-  font-family: "Gilroy", "Arial", "Helvetica", sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 800;
+  font-family: "Gilroy", "Arial", "Helvetica", sans-serif;
   color: #000000;
 }
 
@@ -41,6 +43,7 @@ a {
   line-height: 24px;
   color: #000000;
   text-transform: uppercase;
+
   background: none;
   border: none;
 }
@@ -59,7 +62,6 @@ a {
 .main-nav {
   display: flex;
   flex-direction: column;
-
   padding: 0 60px;
 
   background-color: #ffffff;
@@ -141,6 +143,7 @@ a {
 .slider-slides {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
@@ -184,9 +187,9 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
@@ -215,13 +218,15 @@ a {
 }
 
 .services-button:active {
-  background-color: #000000;
   color: #f7e184;
+
+  background-color: #000000;
 }
 
 .services-list {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
@@ -245,9 +250,9 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
@@ -275,11 +280,11 @@ a {
 }
 
 .partners {
+  list-style: circle;
   font-weight: 800;
-  font-style: 15px;
   line-height: 30px;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
-  list-style: circle;
+  font-style: 15px;
 }
 
 /* ___Стили для подвала___ */
@@ -341,8 +346,9 @@ a {
 .page-title {
   margin: 0;
   padding: 0;
-  padding-left: 60px;
   padding-right: 60px;
+  padding-left: 60px;
+
   font-size: 47px;
   line-height: 48px;
 }
@@ -350,8 +356,9 @@ a {
 .breadcrumbs {
   margin: 0;
   padding: 0;
-  padding-left: 60px;
   padding-right: 60px;
+  padding-left: 60px;
+
   list-style: none;
 }
 
@@ -380,8 +387,8 @@ a {
 
 .catalog-section-title {
   font-size: 16px;
-  letter-spacing: 3.2px;
   text-transform: uppercase;
+  letter-spacing: 3.2px;
 }
 
 .filters,
@@ -409,6 +416,7 @@ a {
 .filter-form-field {
   margin: 0;
   padding: 0;
+
   border: none;
 }
 
@@ -455,6 +463,7 @@ a {
   font-size: 13px;
   line-height: 20px;
   color: rgba(0, 0, 0, 0.5);
+
   background: none;
   border: none;
 }
@@ -490,8 +499,9 @@ a {
 .pagination-button {
   font-size: 16px;
   color: #000000;
-  letter-spacing: 3.2px;
   text-transform: uppercase;
+  letter-spacing: 3.2px;
+
   background-color: #ebebeb;
 }
 
@@ -511,4 +521,3 @@ a {
   background-color: #f2f2f2;
   border: none;
 }
-
