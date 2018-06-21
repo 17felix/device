@@ -112,7 +112,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 45px;
+  margin-bottom: 27px;
 }
 
 .header-middle .user-functions {
@@ -215,8 +215,8 @@ input[type="radio"].visually-hidden {
   left: 4px;
 
   display: block;
-  width: 12px;
-  height: 12px;
+  width: 13px;
+  height: 13px;
 
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -256,6 +256,24 @@ input[type="radio"].visually-hidden {
 .site-nav a:active,
 .sub-menu a:active {
   opacity: 0.3;
+}
+
+.header-bottom .site-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.site-nav-item:first-child {
+  margin-right: 290px;
+  padding-right: 32px;
+}
+
+.site-nav-item:nth-child(2) {
+  margin-right: 30px;
+}
+
+.site-nav-item:last-child {
+  margin-left: auto;
 }
 
 /* ___Стили промо-слайдера___ */
