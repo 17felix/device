@@ -316,6 +316,9 @@ input[type="radio"].visually-hidden {
 }
 
 .slide {
+  padding-left: 60px;
+  padding-right: 60px;
+
   background-color: #ffffff;
   background-image: linear-gradient(to bottom, #f7e296 113px, #ffffff 113px);
 }
