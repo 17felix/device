@@ -308,6 +308,33 @@ input[type="radio"].visually-hidden {
   position: absolute;
 }
 
+.slider-control {
+  position: relative;
+
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 0;
+
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+
+.slider-control-active::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 4px;
+  height: 4px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
 .slider-slides {
   margin: 0;
   padding: 0;
@@ -325,8 +352,8 @@ input[type="radio"].visually-hidden {
 }
 
 .slide {
-  padding-left: 60px;
   padding-right: 60px;
+  padding-left: 60px;
 
   background-color: #ffffff;
   background-image: linear-gradient(to bottom, #f7e296 113px, #ffffff 113px);
