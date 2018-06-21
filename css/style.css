@@ -109,7 +109,22 @@ input[type="radio"].visually-hidden {
 }
 
 .header-middle {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 45px;
+}
+
+.header-middle .user-functions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 220px;
+  margin-left: auto;
+}
+
+.search-form {
+  width: 440px;
+  margin-right: 100px;
 }
 
 .user-navigation,
@@ -121,6 +136,7 @@ input[type="radio"].visually-hidden {
 
   list-style: none;
 }
+
 
 .user-navigation a,
 .user-functions a,
