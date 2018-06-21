@@ -125,6 +125,7 @@ input[type="radio"].visually-hidden {
 
 .search-form {
   position: relative;
+
   width: 440px;
   margin-right: 100px;
 
@@ -145,8 +146,8 @@ input[type="radio"].visually-hidden {
   height: 20px;
 
   background-image: url("../img/search.svg");
-  background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .search-field {
@@ -264,8 +265,29 @@ input[type="radio"].visually-hidden {
 }
 
 .site-nav-item:first-child {
+  position: relative;
+
   margin-right: 290px;
   padding-right: 32px;
+}
+
+.site-nav-item:first-child > a {
+  position: relative;
+}
+
+
+.site-nav-item:first-child > a::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 228px;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url("../img/plus.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .site-nav-item:nth-child(2) {
