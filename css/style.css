@@ -124,6 +124,7 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form {
+  position: relative;
   width: 440px;
   margin-right: 100px;
 
@@ -132,6 +133,20 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   color: #000000;
+}
+
+.search-form::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 2px;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url("../img/search.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .search-field {
@@ -202,6 +217,21 @@ input[type="radio"].visually-hidden {
   display: block;
   width: 12px;
   height: 12px;
+
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.profile a::before {
+  background-image: url("../img/user.svg");
+}
+
+.compare a::before {
+  background-image: url("../img/compare.svg");
+}
+
+.cart a::before {
+  background-image: url("../img/cart.svg");
 }
 
 .site-nav-item > a {
@@ -218,14 +248,14 @@ input[type="radio"].visually-hidden {
 .site-nav a:focus,
 .sub-menu a:hover,
 .sub-menu a:focus {
-  color: rgba(0, 0, 0, 0.6);
+  opacity: 0.6;
 }
 
 .user-navigation a:active,
 .user-functions a:active,
 .site-nav a:active,
 .sub-menu a:active {
-  color: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
 }
 
 /* ___Стили промо-слайдера___ */
