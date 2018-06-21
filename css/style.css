@@ -300,12 +300,21 @@ input[type="radio"].visually-hidden {
 
 /* ___Стили промо-слайдера___ */
 
+.slider {
+  position: relative;
+}
+
+.slider-controls {
+  position: absolute;
+}
+
 .slider-slides {
   margin: 0;
   padding: 0;
 
   list-style: none;
 }
+
 
 .tagline {
   font-weight: 800;
@@ -322,6 +331,7 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
   background-image: linear-gradient(to bottom, #f7e296 113px, #ffffff 113px);
 }
+
 
 .slide p {
   font-weight: 300;
