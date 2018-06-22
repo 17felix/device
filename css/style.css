@@ -207,34 +207,6 @@ input[type="radio"].visually-hidden {
   padding-left: 28px;
 }
 
-.profile a::before,
-.compare a::before,
-.cart a::before {
-  content: "";
-  position: absolute;
-  top: 9px;
-  left: 4px;
-
-  display: block;
-  width: 13px;
-  height: 13px;
-
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-.profile a::before {
-  background-image: url("../img/user.svg");
-}
-
-.compare a::before {
-  background-image: url("../img/compare.svg");
-}
-
-.cart a::before {
-  background-image: url("../img/cart.svg");
-}
-
 .site-nav-item > a {
   color: #000000;
   text-transform: uppercase;
@@ -328,11 +300,13 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 2px;
   left: 2px;
+
   width: 4px;
   height: 4px;
+
+  background-color: #ffffff;
   border: 1px solid #000000;
   border-radius: 50%;
-  background-color: #ffffff;
 }
 
 .slider-slides {
