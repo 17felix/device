@@ -198,13 +198,33 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
+.user-navigation {
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile svg {
+  margin-right: 14px;
+}
+
+.compare svg,
+.cart svg {
+  margin-right: 20px;
+}
+
 .profile a,
 .compare a,
 .cart a {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding-left: 28px; */
+}
 
-  display: block;
-  padding-left: 28px;
+.logout {
+  margin-left: 20px;
 }
 
 .site-nav-item > a {
