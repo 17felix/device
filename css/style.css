@@ -516,21 +516,57 @@ input[type="radio"].visually-hidden {
 
 /* ___Стили блока Услуги___ */
 
+.services {
+  padding-bottom: 70px;
+
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom, #ffffff 107px, #e5e5e5 107px);
+}
+
 .services-slider {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .services-slider-controls {
   display: flex;
   flex-direction: column;
+  width: 277px;
+  min-height: 260px;
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
+
+  list-style: none;
+
+  border-right: 7px solid #000000;
 }
 
-.services-button:active {
+.services-control-active {
+  background-color: #000000;
+}
+
+.services-control-active .button {
   color: #f7e184;
+}
+
+.services-control-active .button::before {
+  top: 0;
+  left: 0;
+
+  height: 100%;
 
   background-color: #000000;
+  transform: none;
+}
+
+.services-control-active .button:hover::before {
+  transition: none;
+}
+
+.services-button-active,
+.services-button:active {
+  color: #f7e184;
 }
 
 .services-list {
@@ -540,13 +576,31 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
+.services-item {
+  display: none;
+  width: 430px;
+  padding-top: 80px;
+  padding-left: 120px;
+}
+
+.services-item-active {
+  display: block;
+}
+
 .services-item h3 {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+
   font-size: 47px;
   line-height: 48px;
   color: #000000;
 }
 
 .services-item p {
+  margin: 0;
+  padding: 0;
+
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
