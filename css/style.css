@@ -227,6 +227,19 @@ input[type="radio"].visually-hidden {
   margin-left: 20px;
 }
 
+.logout a {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.logout a:hover,
+.logout a:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.logout a:active {
+  color: rgba(0, 0, 0, 0.2);
+}
+
 .site-nav-item > a {
   color: #000000;
   text-transform: uppercase;
