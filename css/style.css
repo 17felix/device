@@ -3,7 +3,7 @@
   font-family: "Gilroy";
 
   src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
-    url("../fonts/gilroyextrabold.woff") format("woff");
+  url("../fonts/gilroyextrabold.woff") format("woff");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-family: "Gilroy";
 
   src: url("../fonts/gilroylight.woff2") format("woff2"),
-    url("../fonts/gilroylight.woff.woff") format("woff");
+  url("../fonts/gilroylight.woff.woff") format("woff");
 }
 
 /*______Общие стили______*/
@@ -706,14 +706,27 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 }
 
+.information {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+
 .section-title {
+  margin: 0;
+  margin-bottom: 48px;
+  padding: 0;
+
   font-size: 47px;
   line-height: 48px;
   color: #000000;
 }
 
-.about p,
-.contacts p {
+.information p {
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 0;
+
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -721,12 +734,44 @@ input[type="radio"].visually-hidden {
   color: #464646;
 }
 
+.information p:last-of-type {
+  margin-bottom: 62px;
+}
+
 .partners {
-  list-style: circle;
+  margin: 0;
+  margin-bottom: 75px;
+  padding: 0;
+
+  list-style: none;
   font-weight: 800;
+  font-size: 15px;
   line-height: 30px;
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
-  font-style: 15px;
+}
+
+.partners li {
+  position: relative;
+
+  margin-bottom: 12px;
+  padding-left: 35px;
+}
+
+.partners li::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+
+  width: 4px;
+  height: 4px;
+
+  border: 2px solid #ececec;
+  border-radius: 50%;
+}
+
+.information .button {
+  width: 220px;
+  margin-top: auto;
 }
 
 /* ___Стили для подвала___ */
