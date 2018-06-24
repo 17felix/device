@@ -524,7 +524,7 @@ input[type="radio"].visually-hidden {
   padding-bottom: 70px;
 
   background-color: #ffffff;
-  background-image: linear-gradient(to bottom, #ffffff 107px, #e5e5e5 107px);
+  background-image: linear-gradient(to bottom, #ffffff 97px, #e5e5e5 97px);
 }
 
 .services-slider {
@@ -533,10 +533,8 @@ input[type="radio"].visually-hidden {
 }
 
 .services-slider-controls {
-  display: flex;
-  flex-direction: column;
   width: 277px;
-  min-height: 260px;
+  min-height: 240px;
   margin: 0;
   padding: 0;
   padding-top: 80px;
@@ -546,26 +544,35 @@ input[type="radio"].visually-hidden {
   border-right: 7px solid #000000;
 }
 
+.services-control:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.services-control .button {
+  width: 120px;
+}
+
 .services-control-active {
   background-color: #000000;
 }
 
 .services-control-active .button {
   color: #f7e184;
+
+  background-color: #000000;
 }
 
 .services-control-active .button::before {
   top: 0;
   left: 0;
 
-  height: 100%;
-
   background-color: #000000;
-  transform: none;
+
+  transition: none;
 }
 
 .services-control-active .button:hover::before {
-  transition: none;
+  transform: none;
 }
 
 .services-button-active,
@@ -581,10 +588,54 @@ input[type="radio"].visually-hidden {
 }
 
 .services-item {
+  position: relative;
+
   display: none;
   width: 430px;
-  padding-top: 80px;
+  padding-top: 70px;
   padding-left: 120px;
+}
+
+.service-delivery::before {
+  content: "";
+  position: absolute;
+  top: 83px;
+  right: -261px;
+
+  width: 137px;
+  height: 167px;
+
+  background-color: transparent;
+  background-image: url("../img/delivery.svg");
+  background-repeat: no-repeat;
+}
+
+.service-guarantee::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  right: -280px;
+
+  width: 170px;
+  height: 195px;
+
+  background-color: transparent;
+  background-image: url("../img/warranty.svg");
+  background-repeat: no-repeat;
+}
+
+.service-credit::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  right: -257px;
+
+  width: 157px;
+  height: 185px;
+
+  background-color: transparent;
+  background-image: url("../img/credit.svg");
+  background-repeat: no-repeat;
 }
 
 .services-item-active {
