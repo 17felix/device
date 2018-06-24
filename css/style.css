@@ -2,16 +2,14 @@
   font-weight: 800;
   font-family: "Gilroy";
 
-  src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
-  url("../fonts/gilroyextrabold.woff") format("woff");
+  src: url("../fonts/gilroyextrabold.woff2") format("woff2"), url("../fonts/gilroyextrabold.woff") format("woff");
 }
 
 @font-face {
   font-weight: 300;
   font-family: "Gilroy";
 
-  src: url("../fonts/gilroylight.woff2") format("woff2"),
-  url("../fonts/gilroylight.woff.woff") format("woff");
+  src: url("../fonts/gilroylight.woff2") format("woff2"), url("../fonts/gilroylight.woff.woff") format("woff");
 }
 
 /*______Общие стили______*/
@@ -101,7 +99,6 @@ input[type="radio"].visually-hidden {
 .button:focus::before {
   transform: scaleY(5);
 }
-
 
 .button:active {
   color: rgba(0, 0, 0, 0.3);
@@ -233,7 +230,7 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
-.user-navigation {
+.header-middle .user-navigation {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -321,7 +318,6 @@ input[type="radio"].visually-hidden {
 .site-nav-item:first-child > a {
   position: relative;
 }
-
 
 .site-nav-item:first-child > a::after {
   content: "";
@@ -777,32 +773,16 @@ input[type="radio"].visually-hidden {
 /* ___Стили для подвала___ */
 
 .main-footer {
+  margin: 0;
+  padding: 0;
+  padding-top: 65px;
+  padding-bottom: 65px;
+
   background-color: #464646;
-}
-
-.footer-top {
-  margin-bottom: 33px;
-}
-
-.footer-middle {
-  margin-bottom: 60px;
 }
 
 .main-footer a {
   color: #ffffff;
-}
-
-.main-footer .footer-logo {
-  color: #f0c52e;
-}
-
-.main-footer .footer-logo:hover,
-.main-footer .footer-logo:focus {
-  color: rgba(255, 198, 0, 0.6);
-}
-
-.main-footer .footer-logo:active {
-  color: rgba(255, 198, 0, 0.3);
 }
 
 .main-footer a:hover,
@@ -814,9 +794,110 @@ input[type="radio"].visually-hidden {
   color: rgba(255, 255, 255, 0.3);
 }
 
+/* ___footer-top___ */
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+.footer-top .footer-logo {
+  margin-right: auto;
+
+  color: rgba(255, 198, 0, 1);
+}
+
+.footer-top .footer-logo:hover,
+.footer-top .footer-logo:focus {
+  color: rgba(255, 198, 0, 0.6);
+}
+
+.footer-top .footer-logo:active {
+  color: rgba(255, 198, 0, 0.3);
+}
+
+.footer-top svg {
+  fill: rgba(255, 198, 0, 1);
+}
+
+.footer-top .footer-user {
+  min-width: 330px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-top .user-functions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 220px;
+}
+
+/* ___footer-middle___ */
+
+.footer-middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.footer-middle .contacts-address {
+  order: 0;
+}
+
+.footer-middle .site-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  order: 1;
+  min-width: 450px;
+}
+
+.footer-middle .contacts-phone {
+  order: 2;
+}
+
 .footer-middle a {
   text-transform: uppercase;
   letter-spacing: 3.6px;
+}
+
+/* ___footer-bottom___ */
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-bottom .academy,
+.footer-bottom .footer-social {
+  margin-left: auto;
+}
+
+.footer-bottom .footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 140px;
+}
+
+.social svg {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+.social:hover svg,
+.social:focus svg {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.social:active svg {
+  fill: rgba(255, 255, 255, 0.1);
 }
 
 .contacts-phone,
