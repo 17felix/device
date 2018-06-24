@@ -665,6 +665,11 @@ input[type="radio"].visually-hidden {
 
 /* ___Стили для блока брендов___ */
 
+.brands {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
 .brands-list {
   display: flex;
   flex-direction: row;
@@ -673,6 +678,24 @@ input[type="radio"].visually-hidden {
   padding: 0;
 
   list-style: none;
+}
+
+.brands-link {
+  display: block;
+}
+
+.brands-link .main-image {
+  display: none;
+}
+
+.brands-link:hover .main-image,
+.brands-link:focus .main-image {
+  display: block;
+}
+
+.brands-link:hover .filter-image,
+.brands-link:focus .filter-image {
+  display: none;
 }
 
 /* ___Стили для блоков "О нас" и "Контакты"___ */
