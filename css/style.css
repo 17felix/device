@@ -944,10 +944,15 @@ input[type="radio"].visually-hidden {
 
 /* ___Стили каталога___ */
 
+.main-content {
+  padding-top: 40px;
+}
+
 .page-title {
   margin: 0;
   padding: 0;
   padding-right: 60px;
+  padding-bottom: 30px;
   padding-left: 60px;
 
   font-size: 47px;
@@ -955,12 +960,37 @@ input[type="radio"].visually-hidden {
 }
 
 .breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
   margin: 0;
+  margin-bottom: 45px;
   padding: 0;
   padding-right: 60px;
   padding-left: 60px;
 
   list-style: none;
+}
+
+.breadcrumbs li:not(:last-child) {
+  position: relative;
+
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.breadcrumbs li::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 0;
+
+  width: 5px;
+  height: 7px;
+
+  background-color: transparent;
+  background-image: url("../img/nav-arrow.svg");
+  background-repeat: no-repeat;
 }
 
 .breadcrumbs li,
