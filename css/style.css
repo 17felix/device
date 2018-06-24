@@ -354,7 +354,7 @@ input[type="radio"].visually-hidden {
 .slider-controls {
   position: absolute;
   top: 324px;
-  left: 1000px;
+  right: 80px;
 
   display: flex;
   flex-direction: row;
@@ -399,11 +399,15 @@ input[type="radio"].visually-hidden {
 }
 
 .slide {
-  display: flex;
+  display: none;
   flex-direction: row;
 
   background-color: #ffffff;
   background-image: linear-gradient(to bottom, #f7e296 113px, #ffffff 113px);
+}
+
+.slide-active {
+  display: flex;
 }
 
 .slide-content {
