@@ -1598,15 +1598,17 @@ input:checked + .form-radio::before {
 
 .modal-write {
   position: relative;
+
   width: 760px;
   height: 379px;
   padding: 88px 100px;
+
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .modal-write .button {
-  width: 200px;
   align-self: flex-end;
+  width: 200px;
 }
 
 .modal-write .feedback-form {
@@ -1633,21 +1635,30 @@ input:checked + .form-radio::before {
 }
 
 .feedback-item input[type="text"],
-.feedback-item input[type="email"] {
+.feedback-item input[type="email"],
+.feedback-item textarea {
   box-sizing: border-box;
   width: 100%;
-  border: none;
   padding: 18px 20px;
+
   background-color: #e5e5e5;
+  border: none;
   opacity: 0.5;
 }
 
-.feedback-item textarea {
-  box-sizing: border-box;
-  padding: 18px 20px;
-  border: none;
-  background-color: #e5e5e5;
-  opacity: 0.5;
+.feedback-item input[type="text"]:hover,
+.feedback-item input[type="email"]:hover,
+.feedback-item textarea:hover {
+  opacity: 0.8;
+}
+
+.feedback-item input[type="text"]:focus,
+.feedback-item input[type="email"]:focus,
+.feedback-item textarea:focus {
+  padding: 15px 17px;
+
+  background-color: transparent;
+  border: 3px solid #f0c52e;
 }
 
 .close-button {
