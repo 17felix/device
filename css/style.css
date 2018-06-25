@@ -1596,6 +1596,60 @@ input:checked + .form-radio::before {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.modal-write {
+  position: relative;
+  width: 760px;
+  height: 379px;
+  padding: 88px 100px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-write .button {
+  width: 200px;
+  align-self: flex-end;
+}
+
+.modal-write .feedback-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feedback-item {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin-bottom: 40px;
+}
+
+.feedback-item:last-of-type {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.feedback-item label {
+  margin-bottom: 10px;
+}
+
+.feedback-item input[type="text"],
+.feedback-item input[type="email"] {
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  padding: 18px 20px;
+  background-color: #e5e5e5;
+  opacity: 0.5;
+}
+
+.feedback-item textarea {
+  box-sizing: border-box;
+  padding: 18px 20px;
+  border: none;
+  background-color: #e5e5e5;
+  opacity: 0.5;
+}
+
 .close-button {
   position: absolute;
   top: 22px;
