@@ -1192,7 +1192,66 @@ input:checked + .form-radio::before {
 }
 
 .catalog-list {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
+}
+
+.catalog-item {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+.catalog-item img {
+  order: -1;
+  margin-bottom: 30px;
+}
+
+.catalog-item .catalog-item-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog-item-info h3 {
+  width: 260px;
+  margin: 0;
+  padding: 0;
+
+  font: inherit;
+}
+
+.catalog-item .catalog-item-control {
+  position: absolute;
+  z-index: -1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 170px;
+}
+
+.catalog-item-control .button {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.catalog-item-control {
+  width: 360px;
+  height: 210px;
+
+  background-color: rgba(238, 238, 238, 0.7);
+}
+
+.catalog-item:hover .catalog-item-control,
+.catalog-item:focus .catalog-item-control {
+  z-index: 1;
 }
 
 .price {
