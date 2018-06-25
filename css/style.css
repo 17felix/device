@@ -1200,7 +1200,6 @@ input:checked + .form-radio::before {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-
   width: 760px;
   margin: 0;
   padding: 0;
@@ -1212,10 +1211,11 @@ input:checked + .form-radio::before {
 
 .catalog-item {
   position: relative;
-  padding-bottom: 40px;
+
   display: flex;
   flex-direction: column;
   width: 360px;
+  padding-bottom: 40px;
 }
 
 .catalog-item img {
@@ -1290,13 +1290,39 @@ input:checked + .form-radio::before {
   color: rgba(0, 0, 0, 0.2);
 }
 
+/* ___Стили пагинации___ */
+
 .pagination {
+  width: 760px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pagination-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
   list-style: none;
+  background-color: #ebebeb;
+
+}
+
+.pagination-list li:not(:last-child) {
+  margin-right: 30px;
 }
 
 .pagination-page {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.3);
+}
+
+.pagination-page {
+
 }
 
 .pagination-page:hover,
@@ -1310,6 +1336,7 @@ input:checked + .form-radio::before {
 }
 
 .pagination-button {
+  padding: 26px 30px;
   font-size: 16px;
   color: #000000;
   text-transform: uppercase;
@@ -1325,6 +1352,10 @@ input:checked + .form-radio::before {
 
 .pagination-button:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.pagination-button-forward {
+  order: 1;
 }
 
 /* ___Стили для модальных окон___ */
