@@ -789,7 +789,7 @@ input[type="radio"].visually-hidden {
 
 .brands {
   padding-top: 95px;
-  padding-bottom: 95px;
+  padding-bottom: 105px;
 }
 
 .brands-list {
@@ -835,6 +835,8 @@ input[type="radio"].visually-hidden {
 }
 
 .section-title {
+  position: relative;
+
   margin: 0;
   margin-bottom: 48px;
   padding: 0;
@@ -842,6 +844,17 @@ input[type="radio"].visually-hidden {
   font-size: 47px;
   line-height: 48px;
   color: #000000;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+
+  width: 80px;
+  height: 8px;
+  background-color: #000000;
 }
 
 .information p {
