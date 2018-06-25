@@ -860,6 +860,14 @@ input[type="radio"].visually-hidden {
   margin-bottom: 62px;
 }
 
+.information-about p {
+  width: 475px;
+}
+
+.information-contacts p {
+  width: 560px;
+}
+
 .partners {
   margin: 0;
   margin-bottom: 75px;
