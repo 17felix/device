@@ -1191,16 +1191,28 @@ input:checked + .form-radio::before {
   color: rgba(0, 0, 0, 1);
 }
 
+.catalog-container {
+  padding: 70px 70px 75px;
+}
+
 .catalog-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 760px;
   margin: 0;
   padding: 0;
 
   list-style: none;
 }
 
+/* ___Стили карточки товара___ */
+
 .catalog-item {
   position: relative;
-
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   width: 360px;
@@ -1216,7 +1228,7 @@ input:checked + .form-radio::before {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
 }
 
 .catalog-item-info h3 {
