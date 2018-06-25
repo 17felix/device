@@ -1020,6 +1020,14 @@ input[type="radio"].visually-hidden {
 .footer-bottom {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.footer-bottom::before {
+  content: "";
+  width: 80px;
+  height: 8px;
+  background-color: #f0c52e;
 }
 
 .footer-bottom .academy,
