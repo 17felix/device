@@ -1281,17 +1281,14 @@ input[type="radio"].visually-hidden {
 .range-controls .price-button {
   position: absolute;
   top: 22px;
-
-  display: flex;
-  flex-direction: column;
-
+  text-align: center;
   background-color: transparent;
   border: none;
 }
 
 .range-controls .price-button::before {
   content: "";
-
+  display: block;
   width: 4px;
   height: 4px;
 
@@ -1309,6 +1306,7 @@ input[type="radio"].visually-hidden {
 }
 
 .price-button span {
+  display: block;
   font-size: 14px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.2);
