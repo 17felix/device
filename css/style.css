@@ -1634,8 +1634,7 @@ input:checked + .form-radio::before {
   margin-bottom: 10px;
 }
 
-.feedback-item input[type="text"],
-.feedback-item input[type="email"],
+.feedback-item input,
 .feedback-item textarea {
   box-sizing: border-box;
   width: 100%;
@@ -1646,19 +1645,21 @@ input:checked + .form-radio::before {
   opacity: 0.5;
 }
 
-.feedback-item input[type="text"]:hover,
-.feedback-item input[type="email"]:hover,
+.feedback-item input:hover,
 .feedback-item textarea:hover {
   opacity: 0.8;
 }
 
-.feedback-item input[type="text"]:focus,
-.feedback-item input[type="email"]:focus,
+.feedback-item input:focus,
 .feedback-item textarea:focus {
   padding: 15px 17px;
 
   background-color: transparent;
   border: 3px solid #f0c52e;
+}
+
+.feedback-item textarea {
+  resize: none;
 }
 
 .close-button {
