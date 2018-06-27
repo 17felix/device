@@ -658,36 +658,39 @@ input[type="radio"].visually-hidden {
   margin-bottom: 24px;
 }
 
-.services-control .button {
-  width: 120px;
+.services-button {
+  box-sizing: border-box;
+  padding: 8px 0;
+
+  text-align: left;
 }
 
-.services-control-active {
-  background-color: #000000;
-}
+.services-control-active .services-button {
+  width: 100%;
 
-.services-control-active .button {
   color: #f7e184;
 
   background-color: #000000;
 }
 
-.services-control-active .button::before {
-  top: 0;
-  left: 0;
+.services-button span {
+  display: inline-block;
+  width: 160px;
 
-  background-color: #000000;
-
-  transition: none;
+  text-align: center;
 }
 
-.services-control-active .button:hover::before {
-  transform: none;
-}
-
-.services-button-active,
 .services-button:active {
+  width: 100%;
+
   color: #f7e184;
+
+  background-color: #000000;
+}
+
+.services-control-active .button::before,
+.services-control .button:active::before {
+  display: none;
 }
 
 .services-list {
