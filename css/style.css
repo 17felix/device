@@ -1415,7 +1415,7 @@ input:checked + .form-radio::before {
 
 .catalog-item .catalog-item-control {
   position: absolute;
-  z-index: -1;
+  background-color: rgba(238, 238, 238, 0);
 
   display: flex;
   flex-direction: column;
@@ -1423,9 +1423,43 @@ input:checked + .form-radio::before {
   padding-top: 170px;
 }
 
+.catalog-item-control:hover {
+  background-color: rgba(238, 238, 238, 0.7);
+}
+
 .catalog-item-control .button {
   width: 200px;
   margin-bottom: 20px;
+  opacity: 0;
+}
+
+.catalog-item-control .button-compare {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  background: none;
+  border: none;
+}
+
+.catalog-item-control:hover .button,
+.catalog-item-control:hover .button-compare {
+  opacity: 1;
+}
+
+.catalog-item-control .button-compare:hover,
+.catalog-item-control .button-compare:focus {
+  color: rgba(0, 0, 0, 1);
+}
+
+.catalog-item-control .button-compare:active {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.catalog-item-control .button:focus,
+.catalog-item-control .button-compare:focus {
+  opacity: 1;
 }
 
 .catalog-item-control {
@@ -1437,31 +1471,12 @@ input:checked + .form-radio::before {
 
 .catalog-item:hover .catalog-item-control,
 .catalog-item:focus .catalog-item-control {
-  z-index: 1;
+  opacity: 1;
 }
 
 .price {
   font-weight: 300;
   font-size: 16px;
-}
-
-.button-compare {
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.5);
-
-  background: none;
-  border: none;
-}
-
-.button-compare:hover,
-.button-compare:focus {
-  color: rgba(0, 0, 0, 1);
-}
-
-.button-compare:active {
-  color: rgba(0, 0, 0, 0.2);
 }
 
 /* ___Стили пагинации___ */
