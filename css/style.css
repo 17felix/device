@@ -127,6 +127,8 @@ input[type="radio"].visually-hidden {
   line-height: 48px;
   font-family: "Gilroy", "Arial", "Helvetica", sans-serif;
   color: #000000;
+
+  cursor: pointer;
 }
 
 .logo:hover,
@@ -140,6 +142,7 @@ input[type="radio"].visually-hidden {
 
 .header-logo {
   margin-bottom: 5px;
+  align-self: flex-start;
 }
 
 /* ___header-middle___ */
@@ -423,23 +426,26 @@ input[type="radio"].visually-hidden {
 .slider-slides {
   margin: 0;
   padding: 0;
-  counter-reset: slide-counter;
+
   list-style: none;
+
+  counter-reset: slide-counter;
 }
 
 .slide {
   position: relative;
-  counter-increment: slide-counter;
+
   display: none;
   flex-direction: row;
 
   background-color: #ffffff;
   background-image: linear-gradient(to bottom, #f7e296 113px, #ffffff 113px);
+
+  counter-increment: slide-counter;
 }
 
 .slide::before {
   content: "0" counter(slide-counter);
-
   position: absolute;
   top: -10px;
   right: 50px;
@@ -1415,12 +1421,13 @@ input:checked + .form-radio::before {
 
 .catalog-item .catalog-item-control {
   position: absolute;
-  background-color: rgba(238, 238, 238, 0);
 
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 170px;
+
+  background-color: rgba(238, 238, 238, 0);
 }
 
 .catalog-item-control:hover {
@@ -1430,6 +1437,7 @@ input:checked + .form-radio::before {
 .catalog-item-control .button {
   width: 200px;
   margin-bottom: 20px;
+
   opacity: 0;
 }
 
@@ -1438,9 +1446,10 @@ input:checked + .form-radio::before {
   font-size: 13px;
   line-height: 20px;
   color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
+
   background: none;
   border: none;
+  opacity: 0;
 }
 
 .catalog-item-control:hover .button,
