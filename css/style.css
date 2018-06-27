@@ -340,6 +340,10 @@ input[type="radio"].visually-hidden {
   display: none;
 }
 
+.site-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .site-nav-item:first-child {
   position: relative;
 
@@ -363,10 +367,6 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/plus.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-}
-
-.site-nav-item:nth-child(2) {
-  margin-right: 30px;
 }
 
 .site-nav-item:last-child {
