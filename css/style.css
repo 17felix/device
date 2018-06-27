@@ -1011,6 +1011,15 @@ input[type="radio"].visually-hidden {
   order: 2;
 }
 
+.contacts-phone,
+.contacts-address {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  color: #ffffff;
+}
+
 .footer-middle a {
   text-transform: uppercase;
   letter-spacing: 3.6px;
@@ -1058,13 +1067,13 @@ input[type="radio"].visually-hidden {
   fill: rgba(255, 255, 255, 0.1);
 }
 
-.contacts-phone,
-.contacts-address {
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 30px;
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
-  color: #ffffff;
+.academy:hover,
+.academy:focus {
+  opacity: 0.6;
+}
+
+.academy:active {
+  opacity: 0.3;
 }
 
 /* ___Стили страницы каталога___ */
