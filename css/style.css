@@ -141,8 +141,8 @@ input[type="radio"].visually-hidden {
 }
 
 .header-logo {
-  margin-bottom: 5px;
   align-self: flex-start;
+  margin-bottom: 5px;
 }
 
 /* ___header-middle___ */
@@ -1154,7 +1154,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filters {
-  flex-basis: 38%;
+  flex-grow: 1;
 }
 
 .filters-top {
@@ -1162,10 +1162,16 @@ input[type="radio"].visually-hidden {
   flex-direction: row;
   justify-content: flex-end;
   padding-top: 23px;
-  padding-right: 180px;
+  padding-right: 20px;
   padding-bottom: 23px;
 
   background-color: #dbdbdb;
+}
+
+.filters-top .catalog-section-title {
+  box-sizing: border-box;
+  width: 325px;
+  padding-left: 80px;
 }
 
 .catalog-section-title {
@@ -1335,7 +1341,7 @@ input:checked + .form-radio::before {
 /* ___Стили каталога___ */
 
 .catalog {
-  flex-basis: 61%;
+  flex-grow: 1;
 }
 
 .catalog-top {
@@ -1345,7 +1351,6 @@ input:checked + .form-radio::before {
   align-items: center;
   padding-top: 23px;
   padding-bottom: 23px;
-  padding-left: 70px;
 
   background-color: #ebebeb;
 }
@@ -1357,7 +1362,9 @@ input:checked + .form-radio::before {
 .catalog-top .catalog-sort {
   display: flex;
   flex-direction: row;
-  width: 560px;
+  box-sizing: border-box;
+  width: 852px;
+  padding-left: 75px;
 }
 
 .catalog-sort .sort-button:not(:last-child) {
@@ -1381,7 +1388,9 @@ input:checked + .form-radio::before {
 }
 
 .catalog-container {
-  padding: 70px 70px 75px;
+  box-sizing: border-box;
+  width: 852px;
+  padding: 70px 0 75px 75px;
 }
 
 .catalog-list {
