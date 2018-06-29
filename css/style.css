@@ -385,7 +385,7 @@ input[type="radio"].visually-hidden {
 
 .slider-controls {
   position: absolute;
-  top: 328px;
+  top: 327px;
   right: 80px;
   z-index: 1;
 
@@ -448,8 +448,8 @@ input[type="radio"].visually-hidden {
 .slide::before {
   content: "0" counter(slide-counter);
   position: absolute;
-  top: -10px;
-  right: 50px;
+  top: -14px;
+  right: 45px;
 
   font-weight: 800;
   font-size: 180px;
@@ -493,6 +493,7 @@ input[type="radio"].visually-hidden {
   line-height: 56px;
   font-family: "Gilroy", "Arial", "Helvetica", sans-serif;
   color: #000000;
+  letter-spacing: 0.7px;
 }
 
 .tagline::before {
@@ -519,7 +520,7 @@ input[type="radio"].visually-hidden {
 
 .slide-content .button {
   width: 180px;
-  margin-bottom: 30px;
+  margin-bottom: 47px;
 }
 
 .properties th {
@@ -527,12 +528,16 @@ input[type="radio"].visually-hidden {
   font-size: 13px;
   line-height: 20px;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  letter-spacing: 0.1px;
 }
 
 .properties td {
+  padding-right: 75px;
+  padding-bottom: 4px;
   font-weight: 300;
   font-size: 36px;
   line-height: 48px;
+  letter-spacing: 0.2px;
 }
 
 /* ___Популярные категории___ */
