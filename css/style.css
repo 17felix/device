@@ -534,6 +534,7 @@ input[type="radio"].visually-hidden {
 .properties td {
   padding-right: 75px;
   padding-bottom: 4px;
+
   font-weight: 300;
   font-size: 36px;
   line-height: 48px;
@@ -1459,7 +1460,6 @@ input:checked + .form-radio::before {
   width: 56px;
   height: 56px;
   padding: 16px 10px;
-  border-radius: 50%;
 
   font-size: 14px;
   line-height: 24px;
@@ -1468,6 +1468,7 @@ input:checked + .form-radio::before {
   letter-spacing: 1px;
 
   border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
 
 .catalog-item img {
@@ -1629,21 +1630,30 @@ input:checked + .form-radio::before {
 /* ___Стили для модальных окон___ */
 
 .modal-map {
-  position: relative;
+  position: absolute;
+  top: 1852px;
+  left: 50%;
+  z-index: 2;
 
   width: 960px;
   height: 560px;
+  margin-left: -480px;
 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .modal-write {
-  position: relative;
+  position: absolute;
+  top: 1057px;
+  left: 50%;
+  z-index: 2;
 
   width: 760px;
   height: 379px;
+  margin-left: -480px;
   padding: 88px 100px;
 
+  background-color: #ffffff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
