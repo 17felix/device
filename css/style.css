@@ -560,11 +560,11 @@ input[type="radio"].visually-hidden {
 }
 
 .properties th {
-  text-align: left;
   font-weight: 300;
   font-size: 13px;
   line-height: 20px;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  text-align: left;
   letter-spacing: 0.1px;
 }
 
@@ -1071,7 +1071,7 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-middle a {
-
+  margin-right: 32px;
 
   text-transform: uppercase;
   letter-spacing: 3.6px;
@@ -1472,8 +1472,9 @@ input:checked + .form-radio::before {
   font-size: 14px;
   line-height: 18px;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
-  opacity: 0.3;
   color: #000000;
+
+  opacity: 0.3;
 }
 
 .sort-button:hover,
