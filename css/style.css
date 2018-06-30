@@ -1630,6 +1630,7 @@ input:checked + .form-radio::before {
 /* ___Стили для модальных окон___ */
 
 .modal-map {
+  display: none;
   position: absolute;
   top: 1852px;
   left: 50%;
@@ -1643,6 +1644,7 @@ input:checked + .form-radio::before {
 }
 
 .modal-write {
+  display: none;
   position: absolute;
   top: 1057px;
   left: 50%;
@@ -1657,8 +1659,11 @@ input:checked + .form-radio::before {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.modal-show {
+  display: block;
+}
+
 .modal-write .button {
-  align-self: flex-end;
   width: 200px;
 }
 
@@ -1673,12 +1678,12 @@ input:checked + .form-radio::before {
   display: flex;
   flex-direction: column;
   width: 360px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .feedback-item:last-of-type {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 37px;
 }
 
 .feedback-item label {
@@ -1711,6 +1716,7 @@ input:checked + .form-radio::before {
 
 .feedback-item textarea {
   resize: none;
+  height: 155px;
 }
 
 .close-button {
