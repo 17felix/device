@@ -355,6 +355,7 @@ input[type="radio"].visually-hidden {
   min-height: 168px;
   padding-top: 27px;
   padding-left: 60px;
+
   background-color: #f7e296;
 }
 
@@ -1403,8 +1404,8 @@ input:checked + .form-radio::before {
 .catalog-top .catalog-sort {
   display: flex;
   flex-direction: row;
-  box-sizing: border-box;
   align-items: center;
+  box-sizing: border-box;
   width: 830px;
   padding-left: 75px;
 }
@@ -1661,26 +1662,25 @@ input:checked + .form-radio::before {
 
 /* ___Стили для модальных окон___ */
 
-.modal-map {
-  position: absolute;
-  top: 1852px;
+.modal {
+  position: fixed;
+  top: 50%;
   left: 50%;
   z-index: 2;
 
   display: none;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-50%);
+}
+
+.modal-map {
   width: 960px;
   height: 560px;
   margin-left: -480px;
-
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .modal-write {
-  position: absolute;
-  top: 1057px;
-  left: 50%;
-  z-index: 2;
-
   display: none;
   width: 760px;
   height: 379px;
@@ -1688,7 +1688,6 @@ input:checked + .form-radio::before {
   padding: 88px 100px;
 
   background-color: #ffffff;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .modal-show {
