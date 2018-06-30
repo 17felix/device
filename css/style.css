@@ -1140,6 +1140,7 @@ input[type="radio"].visually-hidden {
 
   font-size: 47px;
   line-height: 48px;
+  letter-spacing: 0.7px;
 }
 
 .breadcrumbs {
@@ -1158,7 +1159,7 @@ input[type="radio"].visually-hidden {
 .breadcrumbs li:not(:last-child) {
   position: relative;
 
-  margin-right: 20px;
+  margin-right: 12px;
   padding-right: 20px;
 }
 
@@ -1258,7 +1259,7 @@ input[type="radio"].visually-hidden {
 
 .filter-form-field {
   padding-top: 10px;
-
+  padding-bottom: 30px;
   border-top: 2px solid #000000;
 }
 
@@ -1267,17 +1268,19 @@ input[type="radio"].visually-hidden {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  padding-bottom: 40px;
 
   border: none;
 }
 
+.filter-form-field legend {
+  margin-bottom: 18px;
+}
 
 .range-controls {
   position: relative;
 
   height: 42px;
-  padding-top: 33px;
+  padding-top: 14px;
 }
 
 .range-controls .scale {
@@ -1288,7 +1291,7 @@ input[type="radio"].visually-hidden {
 }
 
 .range-controls .bar {
-  width: 65%;
+  width: 60%;
   height: 2px;
 
   background-color: #b0d56f;
@@ -1296,7 +1299,7 @@ input[type="radio"].visually-hidden {
 
 .range-controls .price-button {
   position: absolute;
-  top: 22px;
+  top: 5px;
 
   text-align: center;
 
@@ -1317,11 +1320,11 @@ input[type="radio"].visually-hidden {
 }
 
 .range-controls .price-button-min {
-  left: -16px;
+  left: -11px;
 }
 
 .range-controls .price-button-max {
-  left: 114px;
+  left: 100px;
 }
 
 .price-button span {
