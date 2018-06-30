@@ -11,7 +11,7 @@
   font-family: "Gilroy";
 
   src: url("../fonts/gilroylight.woff2") format("woff2"),
-    url("../fonts/gilroylight.woff.woff") format("woff");
+    url("../fonts/gilroylight.woff") format("woff");
 }
 
 /*______Общие стили______*/
@@ -560,6 +560,7 @@ input[type="radio"].visually-hidden {
 }
 
 .properties th {
+  text-align: left;
   font-weight: 300;
   font-size: 13px;
   line-height: 20px;
@@ -1052,7 +1053,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
   order: 1;
   width: 460px;
 }
@@ -1071,12 +1071,15 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-middle a {
-  margin-right: 32px;
+
 
   text-transform: uppercase;
   letter-spacing: 3.6px;
 }
 
+.footer-site-nav li:not(:nth-child(3n)) {
+  margin-right: 32px;
+}
 /* ___footer-bottom___ */
 
 .footer-bottom {
