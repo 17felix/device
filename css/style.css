@@ -360,8 +360,7 @@ input[type="radio"].visually-hidden {
 }
 
 .sub-menu-show,
-.site-nav a:first-child:focus ~ .sub-menu,
-.site-nav a:first-child:hover ~ .sub-menu {
+.site-nav-item:first-child:hover .sub-menu {
   display: flex;
 }
 
