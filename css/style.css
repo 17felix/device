@@ -332,6 +332,8 @@ input[type="radio"].visually-hidden {
 /* ___header-bottom___ */
 
 .header-bottom {
+  position: relative;
+
   margin-bottom: 55px;
 }
 
@@ -341,7 +343,37 @@ input[type="radio"].visually-hidden {
 }
 
 .sub-menu {
+  position: absolute;
+  top: 25px;
+  left: -60px;
+  z-index: 2;
+
   display: none;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 1160px;
+  min-height: 168px;
+  padding-top: 27px;
+  padding-left: 60px;
+  background-color: #f7e296;
+}
+
+.sub-menu-show,
+.site-nav a:first-child:focus ~ .sub-menu,
+.site-nav a:first-child:hover ~ .sub-menu {
+  display: flex;
+}
+
+.sub-menu-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 58px;
+}
+
+.sub-menu-item a {
+  margin-bottom: 6px;
+
+  letter-spacing: 0.2px;
 }
 
 .site-nav-item:not(:last-child) {
@@ -1630,12 +1662,12 @@ input:checked + .form-radio::before {
 /* ___Стили для модальных окон___ */
 
 .modal-map {
-  display: none;
   position: absolute;
   top: 1852px;
   left: 50%;
   z-index: 2;
 
+  display: none;
   width: 960px;
   height: 560px;
   margin-left: -480px;
@@ -1644,12 +1676,12 @@ input:checked + .form-radio::before {
 }
 
 .modal-write {
-  display: none;
   position: absolute;
   top: 1057px;
   left: 50%;
   z-index: 2;
 
+  display: none;
   width: 760px;
   height: 379px;
   margin-left: -480px;
@@ -1715,8 +1747,9 @@ input:checked + .form-radio::before {
 }
 
 .feedback-item textarea {
-  resize: none;
   height: 155px;
+
+  resize: none;
 }
 
 .close-button {
