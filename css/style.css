@@ -474,15 +474,21 @@ input[type="radio"].visually-hidden {
 }
 
 .slide {
-  position: relative;
+  position: absolute;
 
-  display: none;
-  flex-direction: row;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
 
-  background-color: #ffffff;
-  background-image: linear-gradient(to bottom, #f7e296 113px, #ffffff 113px);
+  white-space: nowrap;
+
+  border: 0;
 
   counter-increment: slide-counter;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
 }
 
 .slide::before {
@@ -498,7 +504,23 @@ input[type="radio"].visually-hidden {
 }
 
 .slide-active {
+  position: relative;
+
   display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+
+  white-space: normal;
+
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom, #f7e296 113px, #ffffff 113px);
+
+  clip: none;
+  clip-path: none;
 }
 
 .slide-content {
