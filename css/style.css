@@ -185,10 +185,6 @@ input[type="radio"].visually-hidden {
   margin-left: auto;
 }
 
-.user-navigation .profile {
-  margin-right: 20px;
-}
-
 .search-form {
   position: relative;
 
@@ -270,7 +266,11 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.user-functions li:not(:nth-child(2n)) {
+.user-navigation li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.user-functions li:not(:last-child) {
   margin-right: 35px;
 }
 
@@ -1276,8 +1276,6 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-form-field fieldset {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
 
