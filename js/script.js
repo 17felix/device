@@ -40,3 +40,40 @@ form.addEventListener('submit', function (evt) {
     evt.preventDefault();
   }
 });
+
+//
+
+var promoSlides = document.querySelectorAll('.slide');
+var promoControls = document.querySelectorAll('.slider-control');
+
+for (var i = 0; i < promoControls.length; i++) {
+  (function (i) {
+    promoControls[i].addEventListener('click', function () {
+      for (var j = 0; j < promoSlides.length; j++) {
+        promoControls[j].classList.remove('slider-control-active');
+        promoSlides[j].classList.remove('slide-active');
+      }
+      promoControls[i].classList.add('slider-control-active');
+      promoSlides[i].classList.add('slide-active');
+    });
+  })(i);
+}
+
+// Слайдер услуг
+
+var serviceSlides = document.querySelectorAll('.services-item');
+var serviceControls = document.querySelectorAll('.services-button');
+
+for (var i = 0; i < serviceControls.length; i++) {
+  (function (i) {
+    serviceControls[i].addEventListener('click', function (evt) {
+      evt.preventDefault();
+      for (var j = 0; j < serviceSlides.length; j++) {
+        serviceControls[j].classList.remove('services-button-active');
+        serviceSlides[j].classList.remove('services-item-active');
+      }
+      serviceControls[i].classList.add('services-button-active');
+      serviceSlides[i].classList.add('services-item-active');
+    });
+  })(i);
+}
