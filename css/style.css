@@ -172,34 +172,33 @@ input[type="radio"].visually-hidden {
 
 .header-middle {
   display: flex;
-  flex-direction: row;
-  align-content: flex-start;
-  align-items: center;
-  margin-bottom: 27px;
+  align-items: baseline;
 }
 
 .header-middle .search-form {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
   width: 440px;
   margin-right: 100px;
 }
 
 .header-middle .user-navigation {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  max-width: 300px;
+  display: inline-block;
+  width: 225px;
+  margin-right: 62px;
 }
 
+.header-middle .profile,
+.header-middle .logout,
+.header-middle .compare,
+.header-middle .cart {
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+
 .header-middle .user-functions {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 220px;
+  width: 213px;
   margin-left: auto;
 }
 
@@ -216,8 +215,8 @@ input[type="radio"].visually-hidden {
 .search-form::before {
   content: "";
   position: absolute;
-  top: 18px;
-  left: 2px;
+  bottom: 14px;
+  left: 1px;
 
   width: 20px;
   height: 20px;
