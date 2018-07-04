@@ -437,6 +437,10 @@ input[type="radio"].visually-hidden {
 
 /* ___Стили промо-слайдера___ */
 
+.slider {
+  min-height: 496px;
+}
+
 .slider .container {
   position: relative;
 }
@@ -513,7 +517,7 @@ input[type="radio"].visually-hidden {
   content: "0" counter(slide-counter);
   position: absolute;
   top: -14px;
-  right: 45px;
+  right: 50px;
 
   font-weight: 800;
   font-size: 180px;
@@ -552,6 +556,7 @@ input[type="radio"].visually-hidden {
 }
 
 .slide:nth-child(2) img {
+  margin-top: 11px;
   margin-right: 120px;
   margin-left: 116px;
 }
@@ -567,7 +572,7 @@ input[type="radio"].visually-hidden {
 
   display: block;
   margin-bottom: 20px;
-  padding-top: 75px;
+  padding-top: 79px;
 
   font-weight: 800;
   font-size: 47px;
@@ -580,7 +585,7 @@ input[type="radio"].visually-hidden {
 .tagline::before {
   content: "";
   position: absolute;
-  top: 40px;
+  top: 37px;
   left: 0;
 
   width: 100px;
@@ -592,7 +597,7 @@ input[type="radio"].visually-hidden {
 .slide p {
   width: 485px;
   margin: 0;
-  margin-bottom: 45px;
+  margin-bottom: 42px;
 
   font-weight: 300;
   font-size: 15px;
@@ -629,7 +634,7 @@ input[type="radio"].visually-hidden {
 /* ___Популярные категории___ */
 
 .popular-categories {
-  padding-top: 108px;
+  padding-top: 97px;
   padding-bottom: 83px;
 }
 
@@ -909,7 +914,7 @@ input[type="radio"].visually-hidden {
 .information {
   display: flex;
   flex-direction: column;
-  padding-bottom: 79px;
+  padding-bottom: 83px;
 }
 
 .section-title {
@@ -1007,7 +1012,7 @@ input[type="radio"].visually-hidden {
 .main-footer {
   margin: 0;
   padding: 0;
-  padding-top: 65px;
+  padding-top: 61px;
   padding-bottom: 65px;
 
   background-color: #464646;
@@ -1746,6 +1751,7 @@ input:checked + .form-radio::before {
   z-index: 2;
 
   display: none;
+
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(-50%);
 }
@@ -1761,6 +1767,7 @@ input:checked + .form-radio::before {
   top: 0;
   left: 0;
   z-index: 0;
+
   width: 960px;
   height: 560px;
 }
@@ -1854,6 +1861,7 @@ input:checked + .form-radio::before {
   top: 22px;
   right: 22px;
   z-index: 3;
+
   width: 55px;
   height: 55px;
 
@@ -1873,4 +1881,8 @@ input:checked + .form-radio::before {
 
 .close-button:active {
   opacity: 0.3;
+}
+
+.button-write {
+  font: inherit;
 }
