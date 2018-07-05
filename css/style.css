@@ -916,7 +916,7 @@ input[type="radio"].visually-hidden {
 .information {
   display: flex;
   flex-direction: column;
-  padding-bottom: 83px;
+  padding-bottom: 86px;
 }
 
 .section-title {
@@ -1037,8 +1037,7 @@ input[type="radio"].visually-hidden {
 
 .footer-top {
   display: flex;
-  flex-direction: row;
-  margin-bottom: 7px;
+  margin-bottom: 21px;
 }
 
 .footer-top .footer-logo {
@@ -1060,27 +1059,18 @@ input[type="radio"].visually-hidden {
   fill: rgba(255, 198, 0, 1);
 }
 
-.footer-top .footer-user {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  min-width: 320px;
+.footer-user .user-navigation,
+.footer-user .user-functions,
+.footer-user .profile,
+.footer-user .compare,
+.footer-user .cart {
+  display: inline-block;
+
+  vertical-align: baseline;
 }
 
-.footer-top .user-navigation {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 300px;
-  margin-right: 23px;
-}
-
-.footer-top .user-functions {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 210px;
-  margin-left: 25px;
+.footer-user .user-navigation {
+  margin-right: 40px;
 }
 
 /* ___footer-middle___ */
@@ -1088,44 +1078,47 @@ input[type="radio"].visually-hidden {
 .footer-middle {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 47px;
+  margin-bottom: 62px;
 }
 
-.footer-middle .contacts-address {
-  order: 0;
-}
-
-.footer-middle .site-nav {
+.footer-site-nav {
   display: flex;
+
   flex-direction: row;
-  flex-wrap: wrap;
-  order: 1;
-  width: 460px;
+
+  align-items: flex-end;
 }
 
-.footer-middle .contacts-phone {
-  order: 2;
+.footer-site-nav a {
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
 }
 
-.contacts-phone,
-.contacts-address {
+.footer-site-nav li:not(:last-child) {
+  margin-right: 35px;
+}
+
+.footer-middle p {
+  margin: 0;
+  padding: 0;
+
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   color: #ffffff;
+  /* letter-spacing: 0.2px; */
 }
 
-.footer-middle a {
-  text-transform: uppercase;
-  letter-spacing: 3.6px;
+.footer-middle .contacts-address {
+  order: -1;
+  margin-right: 162px;
 }
 
-.footer-site-nav li:not(:nth-child(3n)) {
-  margin-right: 32px;
+.footer-middle .contacts-phone {
+  margin-left: auto;
 }
+
 /* ___footer-bottom___ */
 
 .footer-bottom {
