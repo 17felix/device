@@ -1221,14 +1221,14 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   margin-right: 16px;
-  padding-right: 21px;
+  padding-right: 22px;
 }
 
 .breadcrumbs li:not(:last-child)::before {
   content: "";
   position: absolute;
   top: 8px;
-  right: 3px;
+  right: 0;
 
   width: 5px;
   height: 7px;
@@ -1240,6 +1240,7 @@ input[type="radio"].visually-hidden {
 
 .breadcrumbs li,
 .breadcrumbs a {
+  font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
@@ -1367,9 +1368,13 @@ input[type="radio"].visually-hidden {
 .range-controls .price-button {
   position: absolute;
   top: 6px;
-  text-align: center;
+  
+  display: inline-block;
+  height: 46px;
+
   background-color: transparent;
   border: none;
+  overflow: visible;
 }
 
 .range-controls .price-button::before {
@@ -1385,31 +1390,27 @@ input[type="radio"].visually-hidden {
 }
 
 .range-controls .price-button-min {
-  left: -11px;
+  left: -14px;
 }
 
 .range-controls .price-button-max {
-  left: 100px;
+  left: 99px;
 }
 
-.price-button span {
-  position: absolute;
-  top: 23px;
-  left: 11px;
-
-  display: block;
-  width: 80px;
-
+.price-button span {  
+  display: inline-block;
   font-size: 14px;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif; 
   line-height: 24px;
-  text-align: left;
   color: rgba(0, 0, 0, 0.2);
 }
 
+.price-button-min span {
+  margin-left: 4px;
+}
+
 .price-button-max span {
-  position: absolute;
-  top: 23px;
-  left: -9px;
+  margin-left: -18px;
 }
 
 .form-check,
