@@ -269,10 +269,15 @@ input[type="radio"].visually-hidden {
   border: 2px solid #000000;
 }
 
+.search-field:focus ~ .search-button:hover,
 .search-button:hover {
   color: #ffffff;
 
   background-color: #000000;
+}
+
+.search-button:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .user-navigation,
