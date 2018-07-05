@@ -563,7 +563,7 @@ input[type="radio"].visually-hidden {
 .slide:nth-child(2) img {
   margin-top: 14px;
   margin-right: 120px;
-  margin-left: 116px;
+  margin-left: 113px;
 }
 
 .slide:nth-child(3) img {
@@ -634,6 +634,14 @@ input[type="radio"].visually-hidden {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.2px;
+}
+
+.properties td:first-child {
+  min-width: 155px;
+}
+
+.properties td:nth-child(2) {
+  min-width: 140px;
 }
 
 /* ___Популярные категории___ */
