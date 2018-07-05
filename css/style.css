@@ -1541,7 +1541,6 @@ input:checked + .form-radio::before {
   opacity: 0.3;
   letter-spacing: 0.4px;
 }
-}
 
 .sort-button:hover,
 .sort-button:focus {
@@ -1814,7 +1813,7 @@ input:checked + .form-radio::before {
   display: none;
   width: 760px;
   margin-left: -480px;
-  padding: 88px 100px;
+  padding: 99px 100px 78px;
 
   background-color: #ffffff;
 }
@@ -1841,16 +1840,16 @@ input:checked + .form-radio::before {
   display: flex;
   flex-direction: column;
   width: 360px;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
 }
 
 .feedback-item:last-of-type {
   width: 100%;
-  margin-bottom: 37px;
+  margin-bottom: 43px;
 }
 
 .feedback-item label {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .feedback-item input,
@@ -1891,7 +1890,7 @@ input:checked + .form-radio::before {
 
 .close-button {
   position: absolute;
-  top: 22px;
+  top: 28px;
   right: 22px;
   z-index: 3;
 
