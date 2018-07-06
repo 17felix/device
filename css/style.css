@@ -173,7 +173,7 @@ input[type="radio"].visually-hidden {
 
 .header-middle {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -1574,11 +1574,9 @@ input:checked + .form-radio::before {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: space-between;
   width: 100%;
-  min-height: 966px;
   margin: 0;
-  margin-bottom: 34px;
+  margin-bottom: 39px;
   padding: 0;
 
   list-style: none;
@@ -1592,6 +1590,11 @@ input:checked + .form-radio::before {
   display: flex;
   flex-direction: column;
   width: 360px;
+  margin-bottom: 46px;
+}
+
+.catalog-item:nth-last-child(3) ~ .catalog-item {
+  margin-bottom: 0;
 }
 
 .catalog-item-new {
