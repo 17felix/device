@@ -2,16 +2,14 @@
   font-weight: 800;
   font-family: "Gilroy";
 
-  src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
-    url("../fonts/gilroyextrabold.woff") format("woff");
+  src: url("../fonts/gilroyextrabold.woff2") format("woff2"), url("../fonts/gilroyextrabold.woff") format("woff");
 }
 
 @font-face {
   font-weight: 300;
   font-family: "Gilroy";
 
-  src: url("../fonts/gilroylight.woff2") format("woff2"),
-    url("../fonts/gilroylight.woff") format("woff");
+  src: url("../fonts/gilroylight.woff2") format("woff2"), url("../fonts/gilroylight.woff") format("woff");
 }
 
 @-webkit-keyframes modal-animation {
@@ -19,17 +17,14 @@
     -webkit-transform: translate(550px, -50%) scale(0);
             transform: translate(550px, -50%) scale(0);
   }
-
   50% {
     -webkit-transform: translateX(250px, -50%) scale(0.5);
             transform: translateX(250px, -50%) scale(0.5);
   }
-
   70% {
     -webkit-transform: translateX(100px, -50%) scale(0.7);
             transform: translateX(100px, -50%) scale(0.7);
   }
-
   100% {
     -webkit-transform: translate(0, -50%) scale(1);
             transform: translate(0, -50%) scale(1);
@@ -41,17 +36,14 @@
     -webkit-transform: translate(550px, -50%) scale(0);
             transform: translate(550px, -50%) scale(0);
   }
-
   50% {
     -webkit-transform: translateX(250px, -50%) scale(0.5);
             transform: translateX(250px, -50%) scale(0.5);
   }
-
   70% {
     -webkit-transform: translateX(100px, -50%) scale(0.7);
             transform: translateX(100px, -50%) scale(0.7);
   }
-
   100% {
     -webkit-transform: translate(0, -50%) scale(1);
             transform: translate(0, -50%) scale(1);
@@ -251,7 +243,6 @@ input[type="radio"].visually-hidden {
   vertical-align: middle;
 }
 
-
 .header-middle .user-functions {
   width: 213px;
   margin-left: auto;
@@ -439,12 +430,12 @@ input[type="radio"].visually-hidden {
   opacity: 1;
 }
 
-
 .site-nav-item:first-child > a:active {
   color: rgba(0, 0, 0, 0.3);
 
   opacity: 1;
 }
+
 /* ___header-bottom___ */
 
 .header-bottom {
@@ -530,7 +521,6 @@ input[type="radio"].visually-hidden {
   position: relative;
 }
 
-
 .site-nav-item:last-child {
   margin-right: -3.6px;
   margin-left: auto;
@@ -550,7 +540,6 @@ input[type="radio"].visually-hidden {
   background-position: 50% 50%;
   opacity: 0.3;
 }
-
 
 /* ___Стили промо-слайдера___ */
 
@@ -1152,7 +1141,6 @@ input[type="radio"].visually-hidden {
   width: 475px;
 }
 
-
 .information-contacts p {
   width: 560px;
 }
@@ -1742,7 +1730,6 @@ input[type="radio"].visually-hidden {
   background-position: 0 50%;
 }
 
-
 input:focus ~ .form-check::before,
 input:focus ~ .form-radio::before,
 .form-check:hover::before,
@@ -2136,7 +2123,6 @@ input:checked + .form-radio::before {
   -ms-flex-wrap: wrap;
 }
 
-
 .pagination-list li:not(:last-child) {
   margin-right: 32px;
 }
@@ -2288,10 +2274,10 @@ input:checked + .form-radio::before {
 .feedback-item textarea {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%;
-  padding: 18px 20px;
+          width: 100%;
+          padding: 18px 20px;
 
-  font-weight: 300;
+          font-weight: 300;
   font-size: 14px;
   line-height: 18px;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
@@ -2301,10 +2287,20 @@ input:checked + .form-radio::before {
   border: none;
 }
 
-.feedback-item input:invalid,
-.feedback-item textarea:invalid {
-  background-color: #edb5b5;
-  opacity: 0.5;
+.feedback-item textarea {
+  height: 155px;
+
+  resize: none;
+}
+
+.feedback-item input:focus,
+.feedback-item textarea:focus {
+  padding: 15px 17px;
+
+  color: rgba(70, 70, 70, 1);
+
+  background-color: transparent;
+  border: 3px solid #f0c52e;
 }
 
 .feedback-item input:hover,
@@ -2312,19 +2308,12 @@ input:checked + .form-radio::before {
   opacity: 0.8;
 }
 
-.feedback-item input:focus,
-.feedback-item textarea:focus {
-  padding: 15px 17px;
-
-  background-color: transparent;
-  border: 3px solid #f0c52e;
+.feedback-item input:invalid,
+.feedback-item textarea:invalid {
+  background-color: #edb5b5;
+  opacity: 0.5;
 }
 
-.feedback-item textarea {
-  height: 155px;
-
-  resize: none;
-}
 
 .close-button {
   position: absolute;
@@ -2356,5 +2345,3 @@ input:checked + .form-radio::before {
 .button-write {
   font: inherit;
 }
-
-
