@@ -1742,6 +1742,9 @@ input[type="radio"].visually-hidden {
   background-position: 0 50%;
 }
 
+
+input:focus ~ .form-check::before,
+input:focus ~ .form-radio::before,
 .form-check:hover::before,
 .form-radio:hover::before {
   opacity: 0.6;
