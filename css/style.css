@@ -1752,8 +1752,9 @@ input:disabled ~ .form-radio:hover::before {
   opacity: 1;
 }
 
-input:focus ~ .form-check {
-  outline: 1px dashed ;
+input:focus ~ .form-check,
+input:focus ~ .form-radio {
+  outline: 3px solid #f0c52e;
 }
 
 .form-check:active::before,
