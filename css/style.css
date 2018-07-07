@@ -1177,10 +1177,19 @@ input[type="radio"].visually-hidden {
   margin-top: auto;
 }
 
-.contacts-map {
+.contacts-map-wrapper {
   position: relative;
+}
+
+.contacts-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 
   display: block;
+  width: 560px;
+  height: 222px;
 }
 
 .contacts-map::after {
